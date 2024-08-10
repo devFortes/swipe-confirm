@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Swiper Example</title>
+</head>
+<body>
+	<div id="swipe-container"></div>
+
+ <script src="./index.js"></script>
+  <script>
+	const swipe = new SwipeConfirm({
+		id: 'swipe-container', 
+		textSwipe: 'Swipe to confirm', 
+		textConfirm: 'Confirmed', 
+		borderRadius: '0px', 
+		buttonBorderRadius: '0px',
+		cancel: false
+	});
+	
+    swipe.on('swiped', () => {
+		alert('Swipe has been completed');
+	});
+	
+	swipe.on('reset', () => {
+		console.log('Swipe reset!');
+	});
+
+	swipe.on('destroy', () => {
+		console.log('Swipe destroyed!');
+	});	
+	
+	//events 
+	
+	// Resetar o componente
+	//swipe.reset();
+
+	// Destruir o componente
+	//swipe.destroy();
+	
+  </script>
+
+</body>
+</html>
