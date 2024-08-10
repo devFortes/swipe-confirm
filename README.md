@@ -49,23 +49,23 @@ const swipe = new SwipeConfirm({
 ### Events
 
 ```bash
-    // Resets the component to its initial state.
-	swipe.reset();
+// Resets the component to its initial state.
+swipe.reset();
 
-	// Destroys the component and removes all events and styles.
-	swipe.destroy();	
+// Destroys the component and removes all events and styles.
+swipe.destroy();	
 
-    swipe.on('swiped', () => {
-		alert('Swipe has been completed');
-	});
-	
-	swipe.on('reset', () => {
-		console.log('Swipe reset!');
-	});
+swipe.on('swiped', () => {
+	alert('Swipe has been completed');
+});
 
-	swipe.on('destroy', () => {
-		console.log('Swipe destroyed!');
-	});
+swipe.on('reset', () => {
+	console.log('Swipe reset!');
+});
+
+swipe.on('destroy', () => {
+	console.log('Swipe destroyed!');
+});
 
 ``` 
 
