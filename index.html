@@ -10,11 +10,11 @@
   <script>
 	const swipe = new SwipeConfirm({
 		id: 'swipe-container', 
-		textSwipe: 'Swipe to confirm', 
+		textSwipe: 'Swipe to cancel', 
 		textConfirm: 'Confirmed', 
 		borderRadius: '0px', 
 		buttonBorderRadius: '0px',
-		cancel: false
+		cancel: true
 	});
 	
     swipe.on('swiped', () => {
