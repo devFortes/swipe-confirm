@@ -3,6 +3,7 @@
 `SwipeConfirm` is a JavaScript class for creating a swipe-to-confirm component on your web pages. The component displays a text message that changes as the user slides a slider to the end.
 
 ![Swipe confirm](swipe-confirm.png)
+<br/>
 ![Swipe cancel](swipe-cancel.png)
 
 
