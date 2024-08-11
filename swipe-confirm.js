@@ -13,7 +13,7 @@ class SwipeConfirm {
         }
 
         this.textSwipe = textSwipe || 'Swipe'
-        this.textConfirm = textConfirm || 'Confirmed';
+        this.textConfirm = textConfirm || '';
         this.borderRadius = borderRadius || '0px';
         this.buttonBorderRadius = buttonBorderRadius || '0px';
         this.onSlideComplete = onSlideComplete || null;
