@@ -84,7 +84,7 @@ class SwipeConfirm {
             .swipe-confirm-slider::-webkit-slider-thumb {
                 z-index: 999;
                 appearance: none !important;
-                height: 46px;
+                height: 100px;
                 width: 70px;
                 border: 1px solid #3078ed00;
                 cursor: pointer;
